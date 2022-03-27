@@ -1,9 +1,16 @@
 import './App.css';
+import StyledComponent from "./styled-component";
+import Animations from "./animation";
+import Theme from "./Theme";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Theme />
+      {/* <Animations />
+      <hr />
+      <StyledComponent /> */}
+    </>
   );
 }
 
